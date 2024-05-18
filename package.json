@@ -1,0 +1,19 @@
+{
+  "name": "exception-extractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "biome lint --apply ./src",
+    "format": "biome format --write ./src",
+    "code:fix": "pnpm lint && pnpm format",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "typescript": "^5.4.5"
+  }
+}
