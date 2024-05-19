@@ -1,6 +1,5 @@
 import { Rule } from 'eslint'
-import { BaseFunction, Node } from 'estree'
-import estraverse from 'estraverse'
+import { Node } from 'estree'
 
 const throwStatement = '@throws'
 
